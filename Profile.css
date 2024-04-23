@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    position: relative;
+  }
+  
+  .container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  /* Background Image */
+  .bg-image {
+    background-image: url('/Users/manojlal/Downloads/milad-fakurian-GJKx5lhwU3M-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    background-color: #333;
+  }
+  
+  .navbar-brand,
+  .nav-link {
+    color: #fff;
+  }
+  
+  .nav-link:hover {
+    color: #ccc;
+  }
+  
+  /* Carousel */
+  .carousel-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+  
+/* Profile Section */
+.profile-section {
+    background-color: rgba(58, 58, 58, 0.8);
+    padding: 40px;
+    border-radius: 5px;
+  }
+  
+  .profile-photo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .social-links {
+    margin-top: 20px;
+  }
+  
+  .social-links .btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* About Section */
+  #about {
+    text-align: center;
+  }
+  
+  /* Projects Section */
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Skills Section */
+  .card-header {
+    background-color: #f8f9fa;
+  }
+  
+  .card-link {
+    display: block;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .card-link:hover {
+    color: #333;
+  }
+  
+  /* Contact Section */
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+  }
